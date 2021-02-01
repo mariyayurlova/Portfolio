@@ -1,0 +1,129 @@
+.home_banner {
+  background-color: #1f1f20;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url(./../../images/dark.jpg);
+  padding: 0;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  color: #fff;
+}
+
+.hero_banner_content {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  align-items: center!important;
+  display: flex!important;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero_banner_content .d_table {
+  width: 100%;
+}
+
+.d_table {
+  display: table!important;
+}
+
+.hero_banner_left {
+  width: 60%;
+  vertical-align: middle;
+  display: table-cell!important;
+}
+
+.intro {
+  width: 90%;
+}
+
+.intro span {
+  font-size: 16px;
+}
+
+.intro h1 {
+  font-size: 50px;
+  padding: 10px 0 10px;
+}
+
+.intro h1 span {
+  font-size: 50px;
+  position: relative;
+  display: inline-block;
+}
+
+.intro h1 span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  z-index: -1;
+  background: #4e93e6;
+}
+
+.intro p, .intro p span {
+  font-size: 27px;
+  margin: 0;
+}
+
+.hero_banner_right {
+  width: 40%;
+  display: table-cell!important;
+  vertical-align: middle;
+}
+
+.hero_right {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  transform: translate3d(0px, 0px, 0px) rotate(
+                  0.0001deg
+  );
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  pointer-events: none;
+}
+
+.hero_right img {
+  max-height: 430px;
+  transform: translate3d(3.9px, -21.1px, 0px);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  position: relative;
+  display: block;
+  left: 0px;
+  top: 0px;
+}
+
+.dok {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  z-index: -9;
+  height: 110%;
+  width: 104%;
+  border: 5px solid #4e93e6;
+  transform: scale(1.13) translate(10%, 0px);
+  left: 0;
+  right: 0;
+  margin-left: 8%;
+  margin-top: -8%;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  display: block;
+}
