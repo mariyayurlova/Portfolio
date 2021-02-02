@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4efe23d-2322-479d-a5e5-88b74fcedbf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/banner/banner.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/banner/banner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/works/works.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/works/works.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +55,7 @@
       <workItem from="1608066339453" duration="655000" />
       <workItem from="1608067042664" duration="605000" />
       <workItem from="1612185345540" duration="4474000" />
+      <workItem from="1612275451666" duration="128000" />
     </task>
     <servers />
   </component>
@@ -74,5 +72,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
